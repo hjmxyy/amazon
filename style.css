@@ -1,0 +1,39 @@
+.yoyo-top {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.yoyo-top-inner {
+  width: 1280px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.yoyo-logo {
+  float: left;
+  padding: 12px 10px;
+}
+
+.yoyo-logo-word {
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+}
+
+.yoyo-loc {
+  float: left;
+  padding: 10px 12px;
+}
+.yoyo-loc-hello {
+  font-size: 12px;
+  color: white;
+  line-height: 14px;
+}
+
+.yoyo-loc-country {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  line-height: 16px;
+}
