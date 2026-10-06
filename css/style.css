@@ -1,0 +1,132 @@
+/* yoyo-top */
+.yoyo-top {
+    background-color: #131921;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* fixed-width container */
+.yoyo-top-inner {
+    width: 1280px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+/* amazon wordmark, floats to the left */
+.yoyo-logo {
+    float: left;
+    padding: 12px 10px;
+}
+/* wordmark text style */
+.yoyo-logo-word {
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* delivery destination */
+.yoyo-loc {
+    float: left;
+    padding: 10px 12px;
+}
+/* first small line */
+.yoyo-loc-hello {
+    font-size: 12px;
+    color: #cccccc;
+    line-height: 14px;
+}
+/* second bold line */
+.yoyo-loc-country {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 16px;
+}
+
+/* parent container, white background */
+.yoyo-search {
+    float: left;
+    width: 620px;
+    height: 40px;
+    margin-top: 8px;
+    background-color: #ffffff;
+    border: 1px solid #131921;
+}
+/* category box, left part of the search bar */
+.yoyo-search-cat {
+    float: left;
+    width: 52px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #e6e6e6;
+    color: #555555;
+}
+/* text input, middle part of the search bar */
+.yoyo-search-input {
+    float: left;
+    width: 500px;
+    height: 38px;
+    border: none;
+    font-size: 14px;
+    padding-left: 10px;
+}
+/* search button */
+.yoyo-search-btn {
+    float: left;
+    width: 58px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #febd69;
+    color: #111111;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* sign-in entry */
+.yoyo-account {
+    float: left;
+    padding: 10px 12px;
+}
+/* returns and orders entry */
+.yoyo-orders {
+    float: left;
+    padding: 10px 12px;
+}
+/* orders areas and small line */
+.yoyo-small {
+    font-size: 12px;
+    color: #cccccc;
+    line-height: 14px;
+}
+/* orders areas and bold line */
+.yoyo-line {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 16px;
+}
+
+/* orange item count on top, white label below */
+.yoyo-cart {
+    float: left;
+    padding: 10px 12px;
+}
+/* orange item count */
+.yoyo-cart-count {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f08804;
+    line-height: 16px;
+    text-align: center;
+}
+/* white cart label */
+.yoyo-cart-word {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 16px;
+}
