@@ -1,246 +1,402 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* yoyo-top */
 .yoyo-top {
-    background-color: #131921;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
+  background-color: #131921;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
 }
 
 /* fixed-width container */
 .yoyo-top-inner {
-    width: 1280px;
-    margin: 0 auto;
-    font-size: 14px;
+  width: 1280px;
+  margin: 0 auto;
+  font-size: 14px;
 }
 
 /* amazon wordmark, floats to the left */
 .yoyo-logo {
-    float: left;
-    padding: 12px 10px;
+  float: left;
+  padding: 12px 10px;
 }
 /* wordmark text style */
 .yoyo-logo-word {
-    font-size: 26px;
-    font-weight: 700;
-    color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 /* delivery destination */
 .yoyo-loc {
-    float: left;
-    padding: 10px 12px;
+  float: left;
+  padding: 10px 12px;
 }
 /* first small line */
 .yoyo-loc-hello {
-    font-size: 12px;
-    color: #cccccc;
-    line-height: 14px;
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 14px;
 }
 /* second bold line */
 .yoyo-loc-country {
-    font-size: 14px;
-    font-weight: 700;
-    color: #ffffff;
-    line-height: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 16px;
 }
 
 /* parent container, white background */
 .yoyo-search {
-    float: left;
-    width: 620px;
-    height: 40px;
-    margin-top: 8px;
-    background-color: #ffffff;
-    border: 1px solid #131921;
+  float: left;
+  width: 620px;
+  height: 40px;
+  margin-top: 8px;
+  background-color: #ffffff;
+  border: 1px solid #131921;
 }
 /* category box, left part of the search bar */
 .yoyo-search-cat {
-    float: left;
-    width: 52px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background-color: #e6e6e6;
-    color: #555555;
+  float: left;
+  width: 52px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #e6e6e6;
+  color: #555555;
 }
 /* text input, middle part of the search bar */
 .yoyo-search-input {
-    float: left;
-    width: 500px;
-    height: 38px;
-    border: none;
-    font-size: 14px;
-    padding-left: 10px;
-}
-/* search button */
-.yoyo-search-btn {
-    float: left;
-    width: 58px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background-color: #febd69;
-    color: #111111;
-    font-size: 12px;
-    font-weight: 700;
+  float: left;
+  width: 500px;
+  height: 38px;
+  border: none;
+  font-size: 14px;
+  padding-left: 10px;
 }
 
 /* sign-in entry */
 .yoyo-account {
-    float: left;
-    padding: 10px 12px;
+  float: left;
+  padding: 10px 12px;
 }
 /* returns and orders entry */
 .yoyo-orders {
-    float: left;
-    padding: 10px 12px;
+  float: left;
+  padding: 10px 12px;
 }
 /* orders areas and small line */
 .yoyo-small {
-    font-size: 12px;
-    color: #cccccc;
-    line-height: 14px;
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 14px;
 }
 /* orders areas and bold line */
 .yoyo-line {
-    font-size: 14px;
-    font-weight: 700;
-    color: #ffffff;
-    line-height: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 16px;
 }
 
 /* orange item count on top, white label below */
 .yoyo-cart {
-    float: left;
-    padding: 10px 12px;
+  float: left;
+  padding: 10px 12px;
 }
 /* orange item count */
 .yoyo-cart-count {
-    display: block;
-    font-size: 16px;
-    font-weight: 700;
-    color: #f08804;
-    line-height: 16px;
-    text-align: center;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 16px;
+  text-align: center;
 }
 /* white cart label */
 .yoyo-cart-word {
-    display: block;
-    font-size: 14px;
-    font-weight: 700;
-    color: #ffffff;
-    line-height: 16px;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 16px;
 }
 
 /* clearfix: double pseudo-element, clears floats inside a parent */
 .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 
 /* full-width dark nav strip below the header */
 .yoyo-nav {
-    background-color: #232f3e;
-    font-family: Arial, sans-serif;
+  background-color: #232f3e;
+  font-family: Arial, sans-serif;
 }
-/* full-width container, content flush to the far left; overflow: hidden clears the floated items */
+/* overflow: hidden clears the floated items */
 .yoyo-nav-inner {
-    overflow: hidden;
+  overflow: hidden;
 }
-/* each category floats left; transparent border prevents layout shift on hover */
+/* transparent border prevents layout shift on hover */
 .yoyo-nav-item {
-    float: left;
-    padding: 8px 12px;
-    font-size: 14px;
-    color: #ffffff;
-    border: 1px solid transparent;
-    line-height: 18px;
+  float: left;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #ffffff;
+  border: 1px solid transparent;
+  line-height: 18px;
 }
 /* white outline box on hover */
 .yoyo-nav-item:hover {
-    border: 1px solid #ffffff;
+  border: 1px solid #ffffff;
 }
 /* first item "all" is bold */
 .yoyo-nav-item-first {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 /* one row of five panels, fixed width and centred */
 .yoyo-panel-row {
-    width: 1280px;
-    margin: 0 auto;
-    padding: 20px 0 0;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 20px 0 0;
 }
-/* one panel, floats left; width + border + margins add up to 256px so 5 fill the 1280px row */
+/* one panel, floats left */
 .yoyo-panel {
-    float: left;
-    width: 238px;
-    margin: 0 8px 20px;
-    border: 1px solid #dddddd;
-    background-color: #ffffff;
+  float: left;
+  width: 238px;
+  margin: 0 8px 20px;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
 }
 /* panel title */
 .yoyo-panel-title {
-    font-size: 17px;
-    font-weight: 700;
-    padding: 12px;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 12px;
 }
 /* panel image, centred inside the box */
 .yoyo-panel-img {
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* shop area */
 .yoyo-shop {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 /* fixed-width container, centred */
 .yoyo-shop-inner {
-    width: 1280px;
-    margin: 0 auto;
+  width: 1280px;
+  margin: 0 auto;
 }
 /* a horizontal row of cards */
 .yoyo-card-row {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-/* one card, floats left; width + border + margins add up to 320px so 4 fill the 1280px row */
+/* one card, floats left */
 .yoyo-card {
-    float: left;
-    width: 298px;
-    margin: 0 10px 20px;
-    border: 1px solid #dddddd;
-    background-color: #ffffff;
+  float: left;
+  width: 298px;
+  margin: 0 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  background-color: #ffffff;
 }
 /* card title */
 .yoyo-card-title {
-    font-size: 16px;
-    font-weight: 700;
-    padding: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px;
 }
-/* 2x2 mini-cell container, overflow: hidden clears the four floated minis */
+/* hidden clears the four floated minis */
 .yoyo-card-grid {
-    padding: 0 15px 15px;
-    overflow: hidden;
+  padding: 0 15px 15px;
+  overflow: hidden;
 }
 /* one mini cell, floats left at half width */
 .yoyo-card-mini {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 50%;
 }
 /* photo inside a mini cell, centred */
 .yoyo-card-mini-img {
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
 }
 /* text below the photo, centred */
 .yoyo-card-mini-label {
-    font-size: 13px;
-    color: #111111;
-    text-align: center;
-    line-height: 24px;
+  font-size: 13px;
+  color: black;
+  text-align: center;
+  line-height: 24px;
+}
+
+/* sign-in bar for personalized recommendations */
+.yoyo-signin {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 24px 0;
+  text-align: center;
+}
+/* fixed-width inner container, centred */
+.yoyo-signin-inner {
+  width: 1280px;
+  margin: 0 auto;
+}
+/* heading text */
+.yoyo-signin-text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+/* yellow sign-in button */
+.yoyo-signin-btn {
+  width: 200px;
+  height: 32px;
+  margin: 6px auto;
+  background-color: yellow;
+  border: 1px solid yellow;
+  line-height: 32px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+/* small link line below the button */
+.yoyo-signin-new {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* back to top bar */
+.yoyo-backtop {
+  background-color: #37475a;
+  text-align: center;
+  padding: 14px 0;
+}
+/* back to top text */
+.yoyo-backtop-text {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/*  four link columns */
+.yoyo-footer {
+  background-color: #232f3e;
+}
+/* fixed-width container, centred */
+.yoyo-footer-inner {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0 40px;
+  overflow: hidden;
+}
+/* one link column, floats left */
+.yoyo-footer-col {
+  float: left;
+  width: 250px;
+}
+/* column title */
+.yoyo-footer-title {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+/* one link line, plain text */
+.yoyo-footer-link {
+  color: #dddddd;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+/* middle bar: logo and selectors */
+.yoyo-footer-mid {
+  background-color: #232f3e;
+  border-top: 1px solid #3a4553;
+}
+/* fixed-width container, centred */
+.yoyo-footer-mid-inner {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 22px 0;
+  text-align: center;
+}
+/* amazon wordmark */
+.yoyo-footer-logo {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  vertical-align: middle;
+  padding: 4px 8px;
+}
+/* language, currency and region box */
+.yoyo-footer-box {
+  display: inline-block;
+  border: 1px solid #848688;
+  color: #cccccc;
+  font-size: 13px;
+  padding: 6px 10px;
+  margin: 0 4px;
+  vertical-align: middle;
+}
+
+/* sub-brand area, darker background, seven columns */
+.yoyo-footer-brands {
+  background-color: #131921;
+}
+/* hidden clears the floated columns */
+.yoyo-footer-brands-inner {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0 40px;
+  overflow: hidden;
+}
+/* one brand column, floats left */
+.yoyo-footer-brand-col {
+  float: left;
+  width: 142px;
+}
+/* brand name */
+.yoyo-footer-brand-name {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+}
+/* brand description */
+.yoyo-footer-brand-desc {
+  color: #999999;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 16px;
+}
+
+/* legal bar */
+.yoyo-footer-legal {
+  background-color: #131921;
+  padding: 16px 0 30px;
+  text-align: center;
+}
+/* one legal item, plain text */
+.yoyo-footer-legal-item {
+  color: #dddddd;
+  font-size: 12px;
+  margin: 0 10px;
+}
+/* copyright line */
+.yoyo-footer-copy {
+  color: #999999;
+  font-size: 12px;
+  margin-top: 8px;
 }
