@@ -1,47 +1,47 @@
-/* reset */
+/* Reset: clear default browser margin and padding */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* yoyo-top */
+/* Top header: dark background, full width */
 .yoyo-top {
   background-color: #131921;
   color: #ffffff;
   font-family: Arial, sans-serif;
 }
 
-/* fixed-width container */
+/* Header container: fixed 1280px, centered with margin auto */
 .yoyo-top-inner {
   width: 1280px;
   margin: 0 auto;
   font-size: 14px;
 }
 
-/* amazon wordmark, floats to the left */
+/* Logo box: floats left to align horizontally */
 .yoyo-logo {
   float: left;
   padding: 12px 10px;
 }
-/* wordmark text style */
+/* Logo text: large white bold wordmark */
 .yoyo-logo-word {
   font-size: 26px;
   font-weight: 700;
   color: #ffffff;
 }
 
-/* delivery destination */
+/* Location box: floats left next to logo */
 .yoyo-loc {
   float: left;
   padding: 10px 12px;
 }
-/* first small line */
+/* Location top text: small gray text */
 .yoyo-loc-hello {
   font-size: 12px;
   color: #cccccc;
   line-height: 14px;
 }
-/* second bold line */
+/* Location bottom text: white bold text */
 .yoyo-loc-country {
   font-size: 14px;
   font-weight: 700;
@@ -49,7 +49,7 @@
   line-height: 16px;
 }
 
-/* parent container, white background */
+/* Search bar: floats left, white background, fixed width */
 .yoyo-search {
   float: left;
   width: 620px;
@@ -58,7 +58,7 @@
   background-color: #ffffff;
   border: 1px solid #131921;
 }
-/* category box, left part of the search bar */
+/* Search category: floats left, gray background */
 .yoyo-search-cat {
   float: left;
   width: 52px;
@@ -68,7 +68,7 @@
   background-color: #e6e6e6;
   color: #555555;
 }
-/* text input, middle part of the search bar */
+/* Search input: floats left, no border */
 .yoyo-search-input {
   float: left;
   width: 500px;
@@ -78,23 +78,23 @@
   padding-left: 10px;
 }
 
-/* sign-in entry */
+/* Account box: floats left */
 .yoyo-account {
   float: left;
   padding: 10px 12px;
 }
-/* returns and orders entry */
+/* Orders box: floats left */
 .yoyo-orders {
   float: left;
   padding: 10px 12px;
 }
-/* orders areas and small line */
+/* Small line text: gray, 12px */
 .yoyo-small {
   font-size: 12px;
   color: #cccccc;
   line-height: 14px;
 }
-/* orders areas and bold line */
+/* Bold line text: white, 14px */
 .yoyo-line {
   font-size: 14px;
   font-weight: 700;
@@ -102,12 +102,12 @@
   line-height: 16px;
 }
 
-/* orange item count on top, white label below */
+/* Cart box: floats left */
 .yoyo-cart {
   float: left;
   padding: 10px 12px;
 }
-/* orange item count */
+/* Cart count: block display to stack vertically */
 .yoyo-cart-count {
   display: block;
   font-size: 16px;
@@ -116,7 +116,7 @@
   line-height: 16px;
   text-align: center;
 }
-/* white cart label */
+/* Cart label: block display, below count */
 .yoyo-cart-word {
   display: block;
   font-size: 14px;
@@ -125,23 +125,23 @@
   line-height: 16px;
 }
 
-/* clearfix: double pseudo-element, clears floats inside a parent */
+/* Clearfix: clears floats with double pseudo-element */
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
 
-/* full-width dark nav strip below the header */
+/* Navigation bar: dark blue background, full width */
 .yoyo-nav {
   background-color: #232f3e;
   font-family: Arial, sans-serif;
 }
-/* overflow: hidden clears the floated items */
+/* Nav container: clears floats with overflow hidden */
 .yoyo-nav-inner {
   overflow: hidden;
 }
-/* transparent border prevents layout shift on hover */
+/* Nav item: floats left, white text */
 .yoyo-nav-item {
   float: left;
   padding: 8px 12px;
@@ -150,22 +150,22 @@
   border: 1px solid transparent;
   line-height: 18px;
 }
-/* white outline box on hover */
+/* Nav item hover: show white border */
 .yoyo-nav-item:hover {
   border: 1px solid #ffffff;
 }
-/* first item "all" is bold */
+/* First nav item: bold text */
 .yoyo-nav-item-first {
   font-weight: 700;
 }
 
-/* one row of five panels, fixed width and centred */
+/* Panel row: fixed width, centered, top padding */
 .yoyo-panel-row {
   width: 1280px;
   margin: 0 auto;
   padding: 20px 0 0;
 }
-/* one panel, floats left */
+/* Panel box: floats left, fixed width, light border */
 .yoyo-panel {
   float: left;
   width: 238px;
@@ -173,13 +173,13 @@
   border: 1px solid #dddddd;
   background-color: #ffffff;
 }
-/* panel title */
+/* Panel title: bold text, inner padding */
 .yoyo-panel-title {
   font-size: 17px;
   font-weight: 700;
   padding: 12px;
 }
-/* panel image, centred inside the box */
+/* Panel image: centered with margin auto */
 .yoyo-panel-img {
   width: 200px;
   height: 200px;
@@ -187,20 +187,20 @@
   margin: 0 auto;
 }
 
-/* shop area */
+/* Shop section: vertical padding */
 .yoyo-shop {
   padding: 20px 0;
 }
-/* fixed-width container, centred */
+/* Shop container: fixed width, centered */
 .yoyo-shop-inner {
   width: 1280px;
   margin: 0 auto;
 }
-/* a horizontal row of cards */
+/* Card row: bottom margin for spacing */
 .yoyo-card-row {
   margin-bottom: 20px;
 }
-/* one card, floats left */
+/* Card box: floats left, rounded corners, light border */
 .yoyo-card {
   float: left;
   width: 298px;
@@ -209,172 +209,140 @@
   border-radius: 8px;
   background-color: #ffffff;
 }
-/* card title */
+/* Card title: bold text, inner padding */
 .yoyo-card-title {
   font-size: 16px;
   font-weight: 700;
   padding: 15px;
 }
-/* hidden clears the four floated minis */
+/* Card grid: clears floats with overflow hidden */
 .yoyo-card-grid {
   padding: 0 15px 15px;
   overflow: hidden;
 }
-/* one mini cell, floats left at half width */
+/* Mini cell: floats left, half width for 2 columns */
 .yoyo-card-mini {
   float: left;
   width: 50%;
 }
-/* photo inside a mini cell, centred */
+/* Mini image: centered with margin auto */
 .yoyo-card-mini-img {
   width: 100px;
   height: 100px;
   display: block;
   margin: 0 auto;
 }
-/* text below the photo, centred */
+/* Mini label: centered text below image */
 .yoyo-card-mini-label {
   font-size: 13px;
-  color: black;
+  color: #111111;
   text-align: center;
   line-height: 24px;
 }
 
-/* sign-in bar for personalized recommendations */
+/* Sign-in bar: top and bottom borders, centered text */
 .yoyo-signin {
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
   padding: 24px 0;
   text-align: center;
 }
-/* fixed-width inner container, centred */
+/* Sign-in container: fixed width, centered */
 .yoyo-signin-inner {
   width: 1280px;
   margin: 0 auto;
 }
-/* heading text */
+/* Sign-in text: bold, 16px */
 .yoyo-signin-text {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
 }
-/* yellow sign-in button */
+/* Sign-in button: yellow background, centered */
 .yoyo-signin-btn {
   width: 200px;
   height: 32px;
   margin: 6px auto;
-  background-color: yellow;
-  border: 1px solid yellow;
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
   line-height: 32px;
   text-align: center;
   font-size: 13px;
   font-weight: 700;
 }
-/* small link line below the button */
+/* Sign-in hint: small 12px text */
 .yoyo-signin-new {
   font-size: 12px;
   line-height: 20px;
 }
 
-/* back to top bar */
+/* Back to top bar: dark blue background, centered text */
 .yoyo-backtop {
   background-color: #37475a;
   text-align: center;
   padding: 14px 0;
 }
-/* back to top text */
+/* Back to top text: white bold text */
 .yoyo-backtop-text {
   color: #ffffff;
   font-size: 13px;
   font-weight: 700;
 }
 
-/*  four link columns */
+/* Footer main: dark blue background */
 .yoyo-footer {
   background-color: #232f3e;
 }
-/* fixed-width container, centred */
+/* Footer container: fixed width, clears floats with overflow hidden */
 .yoyo-footer-inner {
   width: 1000px;
   margin: 0 auto;
   padding: 30px 0 40px;
   overflow: hidden;
 }
-/* one link column, floats left */
+/* Footer column: floats left, fixed width */
 .yoyo-footer-col {
   float: left;
   width: 250px;
 }
-/* column title */
+/* Footer title: white bold text */
 .yoyo-footer-title {
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 8px;
 }
-/* one link line, plain text */
+/* Footer link: gray text, spaced line-height */
 .yoyo-footer-link {
   color: #dddddd;
   font-size: 13px;
   line-height: 22px;
 }
 
-/* middle bar: logo and selectors */
-.yoyo-footer-mid {
-  background-color: #232f3e;
-  border-top: 1px solid #3a4553;
-}
-/* fixed-width container, centred */
-.yoyo-footer-mid-inner {
-  width: 1000px;
-  margin: 0 auto;
-  padding: 22px 0;
-  text-align: center;
-}
-/* amazon wordmark */
-.yoyo-footer-logo {
-  display: inline-block;
-  color: #ffffff;
-  font-size: 26px;
-  font-weight: 700;
-  vertical-align: middle;
-  padding: 4px 8px;
-}
-/* language, currency and region box */
-.yoyo-footer-box {
-  display: inline-block;
-  border: 1px solid #848688;
-  color: #cccccc;
-  font-size: 13px;
-  padding: 6px 10px;
-  margin: 0 4px;
-  vertical-align: middle;
-}
-
-/* sub-brand area, darker background, seven columns */
+/* Brand area: darker background */
 .yoyo-footer-brands {
   background-color: #131921;
 }
-/* hidden clears the floated columns */
+/* Brand container: fixed width, clears floats with overflow hidden */
 .yoyo-footer-brands-inner {
   width: 1000px;
   margin: 0 auto;
   padding: 30px 0 40px;
   overflow: hidden;
 }
-/* one brand column, floats left */
+/* Brand column: floats left, fixed width */
 .yoyo-footer-brand-col {
   float: left;
   width: 142px;
 }
-/* brand name */
+/* Brand name: white bold text */
 .yoyo-footer-brand-name {
   color: #ffffff;
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
 }
-/* brand description */
+/* Brand description: gray text, bottom margin */
 .yoyo-footer-brand-desc {
   color: #999999;
   font-size: 12px;
@@ -382,19 +350,23 @@
   margin-bottom: 16px;
 }
 
-/* legal bar */
+/* Legal bar: dark background, centered text */
 .yoyo-footer-legal {
   background-color: #131921;
   padding: 16px 0 30px;
   text-align: center;
 }
-/* one legal item, plain text */
+/* Legal links container: centers the inline items */
+.yoyo-footer-legal-links {
+  text-align: center;
+}
+/* Legal item: gray text, horizontal margin */
 .yoyo-footer-legal-item {
   color: #dddddd;
   font-size: 12px;
   margin: 0 10px;
 }
-/* copyright line */
+/* Copyright: gray text, top margin */
 .yoyo-footer-copy {
   color: #999999;
   font-size: 12px;
